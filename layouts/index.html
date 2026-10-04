@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Md Naeem Sheikh | Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="/css/custom.css">
+    <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
 </head>
 <body>
 
@@ -26,7 +26,7 @@
     <div class="glow-orb orb-2"></div>
     
     <div class="hero-content">
-        <img src="/profile.jpg?v=3" alt="Md Naeem Sheikh" class="hero-img" onerror="this.src='https://ui-avatars.com/api/?name=Md+Naeem+Sheikh&background=38bdf8&color=fff&size=200'">
+        <img src="{{ "profile.jpg" | relURL }}" alt="Md Naeem Sheikh" class="hero-img" onerror="this.src='https://ui-avatars.com/api/?name=Md+Naeem+Sheikh&background=38bdf8&color=fff&size=200'">
         
         <div class="greeting">
             <span style="color: #cbd5e1;">Hi, I am</span> 
@@ -207,7 +207,7 @@
 <section id="resume" class="section-container route-section" style="display: none;">
     <h2 class="section-title">My <span>Resume</span></h2>
     <div style="text-align: center; max-width: 900px; margin: 0 auto;">
-        <iframe src="/cv.pdf#toolbar=0" width="100%" height="900px" style="border: 2px solid rgba(255,255,255,0.1); border-radius: 10px;">
+        <iframe src="{{ "cv.pdf" | relURL }}#toolbar=0" width="100%" height="900px" style="border: 2px solid rgba(255,255,255,0.1); border-radius: 10px;">
             This browser does not support PDFs.
         </iframe>
     </div>
