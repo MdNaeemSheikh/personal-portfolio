@@ -3,11 +3,11 @@
   command = "hugo --gc --minify"
 
 [build.environment]
-  HUGO_VERSION = "0.128.0"
+  HUGO_VERSION = "0.166.0"
   HUGO_ENABLEGITINFO = "true"
   GIT_SUBMODULE_STRATEGY = "recursive"
 
 [context.production.environment]
-  HUGO_VERSION = "0.128.0"
+  HUGO_VERSION = "0.166.0"
   HUGO_ENV = "production"
   GIT_SUBMODULE_STRATEGY = "recursive"
