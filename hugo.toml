@@ -1,0 +1,14 @@
+baseURL = "/"
+languageCode = "en"
+title = "Md Naeem Sheikh | Portfolio"
+theme = "blowfish"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  colorScheme = "blowfish"
+  defaultAppearance = "dark"
+  customCSS = ["css/custom.css"]
